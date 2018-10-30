@@ -20,7 +20,7 @@ The input data is based on statistics available from the US Department of Labor 
 # Instructions
 
 Python 3.6 
-* Git: git clone hhttps://github.com/Catherinesdataanalytics/h1b_statistics_analysis.git
+* Git: git clone https://github.com/Catherinesdataanalytics/h1b_statistics_analysis.git
 * Check your input data format (data needs to be in csv format ) and column names( status needs to be "STATUS" or "CASE_STATUS"; state needs to be "LCA_CASE_WORKLOC1_STATE"or "WORKSITE_STATE"; occupation needs to be "LCA_CASE_SOC_NAME" or "SOC_NAME"
 * put the data in csv format to the input folder.
 * cd to your download local directory and  the run.sh file using . run.sh
