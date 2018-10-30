@@ -13,6 +13,7 @@ The input data is based on statistics available from the US Department of Labor 
 
 # Approach
 
+* The data processing part is in **h1b_counting.py**
 *  First the input data in input folder will be read into csv.DictReader, and append as dictionary with their counts
 *  Then the top 10 data will be generated based on number first and alphabetic second rule
 *  The final result with pecentage format will bse saved as txt file to the output folder
@@ -22,8 +23,8 @@ The input data is based on statistics available from the US Department of Labor 
 Python 3.6 
 * Git: git clone https://github.com/Catherinesdataanalytics/h1b_statistics_analysis.git
 * Check your input data format (data needs to be in csv format ) and column names( status needs to be "STATUS" or "CASE_STATUS"; state needs to be "LCA_CASE_WORKLOC1_STATE"or "WORKSITE_STATE"; occupation needs to be "LCA_CASE_SOC_NAME" or "SOC_NAME"
-* put the data in csv format to the input folder.
-* cd to your download local directory and  the run.sh file using . run.sh
+* put the data in csv format to the input folder. make sure the input folder only contains one target csv file.
+* cd to your download local directory which contains the run.sh file using . run.sh
 
 # Output 
 top_10_states.txt  and top_10_occupations.txt  will be automatically generated into the output folder.
